@@ -1,4 +1,3 @@
-```
 wifi-scanner/
 │
 ├── CMakeLists.txt
@@ -21,4 +20,4 @@ wifi-scanner/
     │   └── Logger.h                    # логгер, если кто не понял
     └── models/
         └── WiFiNetwork.h               # структура сети
-```
+
