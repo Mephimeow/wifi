@@ -201,6 +201,30 @@ src/app/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wifi_scanner.dir/build.make CMakeFiles/wifi_scanner.dir/src/app/main.cpp.s
 .PHONY : src/app/main.cpp.s
 
+src/config/ConfigLoader.o: src/config/ConfigLoader.cpp.o
+.PHONY : src/config/ConfigLoader.o
+
+# target to build an object file
+src/config/ConfigLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wifi_scanner.dir/build.make CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.o
+.PHONY : src/config/ConfigLoader.cpp.o
+
+src/config/ConfigLoader.i: src/config/ConfigLoader.cpp.i
+.PHONY : src/config/ConfigLoader.i
+
+# target to preprocess a source file
+src/config/ConfigLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wifi_scanner.dir/build.make CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.i
+.PHONY : src/config/ConfigLoader.cpp.i
+
+src/config/ConfigLoader.s: src/config/ConfigLoader.cpp.s
+.PHONY : src/config/ConfigLoader.s
+
+# target to generate assembly for a file
+src/config/ConfigLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wifi_scanner.dir/build.make CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.s
+.PHONY : src/config/ConfigLoader.cpp.s
+
 src/core/WifiScanner.o: src/core/WifiScanner.cpp.o
 .PHONY : src/core/WifiScanner.o
 
@@ -267,6 +291,9 @@ help:
 	@echo "... src/app/main.o"
 	@echo "... src/app/main.i"
 	@echo "... src/app/main.s"
+	@echo "... src/config/ConfigLoader.o"
+	@echo "... src/config/ConfigLoader.i"
+	@echo "... src/config/ConfigLoader.s"
 	@echo "... src/core/WifiScanner.o"
 	@echo "... src/core/WifiScanner.i"
 	@echo "... src/core/WifiScanner.s"

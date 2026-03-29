@@ -100,24 +100,10 @@ CMakeFiles/wifi_scanner.dir/src/core/WifiScanner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/wifi_scanner.dir/src/core/WifiScanner.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mephi/work/wifi/src/core/WifiScanner.cpp -o CMakeFiles/wifi_scanner.dir/src/core/WifiScanner.cpp.s
 
-CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.o: CMakeFiles/wifi_scanner.dir/flags.make
-CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.o: /home/mephi/work/wifi/src/adapter/Nl80211Adapter.cpp
-CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.o: CMakeFiles/wifi_scanner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mephi/work/wifi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.o -MF CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.o.d -o CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.o -c /home/mephi/work/wifi/src/adapter/Nl80211Adapter.cpp
-
-CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mephi/work/wifi/src/adapter/Nl80211Adapter.cpp > CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.i
-
-CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mephi/work/wifi/src/adapter/Nl80211Adapter.cpp -o CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.s
-
 CMakeFiles/wifi_scanner.dir/src/adapter/SystemIWLAdapter.cpp.o: CMakeFiles/wifi_scanner.dir/flags.make
 CMakeFiles/wifi_scanner.dir/src/adapter/SystemIWLAdapter.cpp.o: /home/mephi/work/wifi/src/adapter/SystemIWLAdapter.cpp
 CMakeFiles/wifi_scanner.dir/src/adapter/SystemIWLAdapter.cpp.o: CMakeFiles/wifi_scanner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mephi/work/wifi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/wifi_scanner.dir/src/adapter/SystemIWLAdapter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mephi/work/wifi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/wifi_scanner.dir/src/adapter/SystemIWLAdapter.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/wifi_scanner.dir/src/adapter/SystemIWLAdapter.cpp.o -MF CMakeFiles/wifi_scanner.dir/src/adapter/SystemIWLAdapter.cpp.o.d -o CMakeFiles/wifi_scanner.dir/src/adapter/SystemIWLAdapter.cpp.o -c /home/mephi/work/wifi/src/adapter/SystemIWLAdapter.cpp
 
 CMakeFiles/wifi_scanner.dir/src/adapter/SystemIWLAdapter.cpp.i: cmake_force
@@ -131,7 +117,7 @@ CMakeFiles/wifi_scanner.dir/src/adapter/SystemIWLAdapter.cpp.s: cmake_force
 CMakeFiles/wifi_scanner.dir/src/utils/Logger.cpp.o: CMakeFiles/wifi_scanner.dir/flags.make
 CMakeFiles/wifi_scanner.dir/src/utils/Logger.cpp.o: /home/mephi/work/wifi/src/utils/Logger.cpp
 CMakeFiles/wifi_scanner.dir/src/utils/Logger.cpp.o: CMakeFiles/wifi_scanner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mephi/work/wifi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/wifi_scanner.dir/src/utils/Logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mephi/work/wifi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/wifi_scanner.dir/src/utils/Logger.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/wifi_scanner.dir/src/utils/Logger.cpp.o -MF CMakeFiles/wifi_scanner.dir/src/utils/Logger.cpp.o.d -o CMakeFiles/wifi_scanner.dir/src/utils/Logger.cpp.o -c /home/mephi/work/wifi/src/utils/Logger.cpp
 
 CMakeFiles/wifi_scanner.dir/src/utils/Logger.cpp.i: cmake_force
@@ -142,26 +128,56 @@ CMakeFiles/wifi_scanner.dir/src/utils/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/wifi_scanner.dir/src/utils/Logger.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mephi/work/wifi/src/utils/Logger.cpp -o CMakeFiles/wifi_scanner.dir/src/utils/Logger.cpp.s
 
+CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.o: CMakeFiles/wifi_scanner.dir/flags.make
+CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.o: /home/mephi/work/wifi/src/config/ConfigLoader.cpp
+CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.o: CMakeFiles/wifi_scanner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mephi/work/wifi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.o -MF CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.o.d -o CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.o -c /home/mephi/work/wifi/src/config/ConfigLoader.cpp
+
+CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mephi/work/wifi/src/config/ConfigLoader.cpp > CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.i
+
+CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mephi/work/wifi/src/config/ConfigLoader.cpp -o CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.s
+
+CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.o: CMakeFiles/wifi_scanner.dir/flags.make
+CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.o: /home/mephi/work/wifi/src/adapter/Nl80211Adapter.cpp
+CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.o: CMakeFiles/wifi_scanner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mephi/work/wifi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.o -MF CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.o.d -o CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.o -c /home/mephi/work/wifi/src/adapter/Nl80211Adapter.cpp
+
+CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mephi/work/wifi/src/adapter/Nl80211Adapter.cpp > CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.i
+
+CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mephi/work/wifi/src/adapter/Nl80211Adapter.cpp -o CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.s
+
 # Object files for target wifi_scanner
 wifi_scanner_OBJECTS = \
 "CMakeFiles/wifi_scanner.dir/src/app/main.cpp.o" \
 "CMakeFiles/wifi_scanner.dir/src/core/WifiScanner.cpp.o" \
-"CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.o" \
 "CMakeFiles/wifi_scanner.dir/src/adapter/SystemIWLAdapter.cpp.o" \
-"CMakeFiles/wifi_scanner.dir/src/utils/Logger.cpp.o"
+"CMakeFiles/wifi_scanner.dir/src/utils/Logger.cpp.o" \
+"CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.o" \
+"CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.o"
 
 # External object files for target wifi_scanner
 wifi_scanner_EXTERNAL_OBJECTS =
 
 wifi_scanner: CMakeFiles/wifi_scanner.dir/src/app/main.cpp.o
 wifi_scanner: CMakeFiles/wifi_scanner.dir/src/core/WifiScanner.cpp.o
-wifi_scanner: CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.o
 wifi_scanner: CMakeFiles/wifi_scanner.dir/src/adapter/SystemIWLAdapter.cpp.o
 wifi_scanner: CMakeFiles/wifi_scanner.dir/src/utils/Logger.cpp.o
+wifi_scanner: CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.o
+wifi_scanner: CMakeFiles/wifi_scanner.dir/src/adapter/Nl80211Adapter.cpp.o
 wifi_scanner: CMakeFiles/wifi_scanner.dir/build.make
 wifi_scanner: CMakeFiles/wifi_scanner.dir/compiler_depend.ts
 wifi_scanner: CMakeFiles/wifi_scanner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mephi/work/wifi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable wifi_scanner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mephi/work/wifi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable wifi_scanner"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wifi_scanner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

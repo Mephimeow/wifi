@@ -1,1 +1,3 @@
 interface: wlan0
+adapter: system
+timeout: 5000

@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/wifi_scanner.dir/src/adapter/SystemIWLAdapter.cpp.o.d"
   "CMakeFiles/wifi_scanner.dir/src/app/main.cpp.o"
   "CMakeFiles/wifi_scanner.dir/src/app/main.cpp.o.d"
+  "CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.o"
+  "CMakeFiles/wifi_scanner.dir/src/config/ConfigLoader.cpp.o.d"
   "CMakeFiles/wifi_scanner.dir/src/core/WifiScanner.cpp.o"
   "CMakeFiles/wifi_scanner.dir/src/core/WifiScanner.cpp.o.d"
   "CMakeFiles/wifi_scanner.dir/src/utils/Logger.cpp.o"
